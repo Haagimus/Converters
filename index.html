@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Converter tools</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+</head>
+
+<header>
+  <h1>Converter tools</h1>
+</header>
+
+<body>
+  <div>
+    <nav class="column_left">
+      <select id="distStart">
+        <option value="in">in</option>
+        <option value="ft">ft</option>
+        <option value="cm">cm</option>
+        <option value="mm">mm</option>
+      </select>
+    </nav>
+    <nav class="column_center">
+      <input id="distInput" type="text" />
+    </nav>
+    <nav class="column_right">
+      <input id="reset" type="button" value="Reset">
+    </nav>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th id="firstUnit">ft</th>
+        <th id="secondUnit">cm</th>
+        <th id="thirdUnit">mm</th>
+      </tr>
+      <tr>
+        <td id="firstConversion" class="output"></td>
+        <td id="secondConversion" class="output"></td>
+        <td id="thirdConversion" class="output"></td>
+      </tr>
+    </table>
+  </div>
+  </br>
+  <header>
+    <h2>Square calculator (in inches)</h2>
+  </header>
+</br>
+  <table>
+    <tr>
+      <th>Known Side</th>
+      <th>Side Two</th>
+      <th>Side Three</th>
+    </tr>
+    <tr>
+      <td>
+        <div id="sqInput" contentEditable>
+        </div>
+      </td>
+      <td id="sideTwo" class="output"></td>
+      <td id="sideThree" class="output"></td>
+    </tr>
+  </table>
+</br>
+  <footer>Copyright © Gary Haag</footer>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>
